@@ -35,8 +35,8 @@ var JumperBot = function () {
         swingBot = false,     
         relAngleX, relAngleY, relFiredPointX, relFiredPointY; 
 
-    canvas.width = 400;
-    canvas.height = 500;
+    canvas.width = 1400;
+    canvas.height = 900;
 
     context = canvas.getContext('2d');
     context.lineWidth = ropeThickness; 
